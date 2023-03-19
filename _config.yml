@@ -1,30 +1,32 @@
 timezone:    Europe/Berlin
 future:      false
-# The allowed values are 'rouge', 'pygments' or null.
+# Set baseurl to the base path of the site eg "/mytalk"
+baseurl:     "/slides"
 highlighter: ""
-# markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
 markdown:    kramdown
 lsi:         false
 permalink:   "/:title"
 
 kramdown:
-  smart_quotes: sbquo,lsquo,bdquo,ldquo
+  ## for german: "sbquo,lsquo,bdquo,ldquo"
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
   syntax_highlighter_opts:
     disable: true
 
 #gems:
 #  - jemoji
 
-title:       re:claim your blog engine
-author:      Thomas Friese
-description: Presentation für die rp14
+## personalize your slide show
+title:       Pitch
+author:      Roman Bögli
+description: Making Photo Management a Life Changing Experience
 
 sass:
-  style:     :compressed
+  style:     compressed
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme:     light
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
@@ -80,7 +82,7 @@ reveal:
   ## number for the current slide. The function should take in a slide
   ## object and return an array with one string [slideNumber] or
   ## three strings [n1,delimiter,n2]. See #formatSlideNumber().
-  slideNumber: false
+  slideNumber: 'c/t'
 
   ## Can be used to limit the contexts in which the slide number appears
   ## - "all":      Always show the slide number
@@ -298,6 +300,23 @@ reveal:
 
   ## Time before the cursor is hidden (in ms)
   hideCursorTime: 5000
+
+exclude: [
+  "Gemfile",
+  "Gemfile.lock",
+  "default.nix",
+  "vendor",
+  "README.md",
+  "LICENSE",
+  "reveal.js/CONTRIBUTING.md",
+  "reveal.js/LICENSE",
+  "reveal.js/README.md",
+  "reveal.js/gulpfile.js",
+  "reveal.js/index.html",
+  "reveal.js/package-lock.json",
+  "reveal.js/package.json",
+  "reveal.js/test"
+]
 
 exclude: [
   "Gemfile",
