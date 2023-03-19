@@ -46,7 +46,6 @@ data:
 <h3 data-fragment-index="2" class="fragment fade-in">👍🏽 Lokale Speicherung</h3>
 <h3 data-fragment-index="3" class="fragment fade-in">👍🏽 Transparenz</h3>
 <h3 data-fragment-index="4" class="fragment fade-in">👍🏽 Selbstbestimmung</h3>
-<h3 data-fragment-index="5" class="fragment fade-in">👍🏽 Unabhängigkeit</h3>
 <h1 data-fragment-index="6" class="fragment fade-in">👍🏽 Komplett Kostenlos</h1>
 
 </section>
