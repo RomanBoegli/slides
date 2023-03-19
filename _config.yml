@@ -1,7 +1,7 @@
 timezone:    Europe/Berlin
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-baseurl:     ""
+baseurl:     "/slides"
 highlighter: ""
 markdown:    kramdown
 lsi:         false
@@ -17,16 +17,16 @@ kramdown:
 #  - jemoji
 
 ## personalize your slide show
-title:       reveal-jekyll
-author:      Thomas Friese
-description: Reveal.js for Jekyll with Solarized Color theme
+title:       Pitch
+author:      Roman Bögli
+description: Making Photo Management a Life Changing Experience
 
 sass:
   style:     compressed
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme:     light
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
@@ -82,7 +82,7 @@ reveal:
   ## number for the current slide. The function should take in a slide
   ## object and return an array with one string [slideNumber] or
   ## three strings [n1,delimiter,n2]. See #formatSlideNumber().
-  slideNumber: false
+  slideNumber: 'c/t'
 
   ## Can be used to limit the contexts in which the slide number appears
   ## - "all":      Always show the slide number
