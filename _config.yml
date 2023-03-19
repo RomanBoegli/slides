@@ -17,9 +17,9 @@ kramdown:
 #  - jemoji
 
 ## personalize your slide show
-title:       Pitch
+title:       🛗 Pitch
 author:      Roman Bögli
-description: Making Photo Management a Life Changing Experience
+description: DigiKam
 
 sass:
   style:     compressed
