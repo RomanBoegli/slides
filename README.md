@@ -1,6 +1,6 @@
 # reveal-jekyll
 
-Transforms Markdown files into presentation slides using [reveal.js](#revealjs) and [Jekyll](#jekyll). The theme is based on [Solarized Colors](https://github.com/altercation/solarized) (by Ethan Schoonover) containing a light and a dark theme.  
+Transforms Markdown files into presentation slides using [reveal.js](#revealjs) and [Jekyll](#jekyll). The theme is based on [Solarized Colors](https://github.com/altercation/solarized) (by Ethan Schoonover) containing a light and a dark theme.
 **reveal-jekyll** is ready for [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) as well as [GitHub Pages](https://pages.github.com/).
 
 [![Build Status](https://travis-ci.org/tasmo/reveal-jekyll.svg?branch=master)](https://travis-ci.org/tasmo/reveal-jekyll)
