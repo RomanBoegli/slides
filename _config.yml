@@ -17,9 +17,9 @@ kramdown:
 #  - jemoji
 
 ## personalize your slide show
-title:       Pitch
+title:       🔵 SIZ AU Pitch 🔵
 author:      Roman Bögli
-description: Making Photo Management a Life Changing Experience
+description: Presenting the optional course offer «SIZ Advanced User»
 
 sass:
   style:     compressed
